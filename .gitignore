@@ -1,0 +1,58 @@
+# Qt Creator project/user files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.creator
+*.creator.*
+
+# Qt Creator hidden folder (IDE settings)
+.qtcreator/
+
+# Qt Creator/IDE-generated INI files
+*.ini
+
+# Build directories
+build-*/
+build/
+
+# Compiled object files, libraries, executables
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+
+# Qt generated files
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.moc
+*.qrc
+
+# Qt Designer backups
+*.ui~
+*.qmlc
+*.qmltypes
+
+# Backup and temporary files
+*~
+*.swp
+*.tmp
+*.bak
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# CMake build files (if using CMake)
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
